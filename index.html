@@ -4,8 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>legal resource</title>
+    <!-- tailwind with daisy-ui -->
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
-    
+    <header>
+        <!-- navbar section -->
+    <div class="container mx-auto ">
+    <div class="navbar bg-slate-200 lg:px-24 rounded-lg text-[#707070]">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Cases</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact us</a></li>
+          </div>
+         <img src="images/logo2.png" alt="">
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Cases</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact us</a></li>
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-[#B68C5A] text-white">Free Consultation</a>
+        </div>
+      </div>
+    </div>
+    <!-- banner section -->
+    <section>
+        <div class="container mx-auto my-20">
+            <div class="hero min-h-screen" style="background-image: url(./images/banner.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-semibold">We Provide Effective Legal Solutions</h1>
+                    <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <div class="flex gap-4 text-center justify-center">
+                        <input class="rounded-lg" type=" " placeholder="search your  services">
+                        <button class="btn bg-[#B68C5A] text-white">Search</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <main>
+        <!-- legal section -->
+        <section >
+        <div class="container mx-auto my-20 grid grid-cols-1 lg:grid-cols-3 gap-4">
+            <div class="mb-4">
+                <img src="images/business.png" alt="">
+                <h3 class="text-[#414040] font-semibold">Business Law</h3>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div class="mb-4">
+                <img src="images/criminal.png" alt="">
+                <h3 class="text-[#414040] font-semibold">Criminal Law</h3>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div class="mb-4">
+                <img src="images/child.png" alt="">
+                <h3 class="text-[#414040] font-semibold">Child Support</h3>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div>
+                <img src="images/education.png" alt="">
+                <h3 class="text-[#414040] font-semibold">Educational Law</h3>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div>
+                <img src="images/divorce.png" alt="">
+                <h3 class="text-[#414040] font-semibold">Divorce Law</h3>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div>
+                <img src="images/tax.png" alt="">
+                <h3 class="text-[#414040] font-semibold">Tax Law</h3>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+        </div>
+    </section>
+    </main>
+</header>
+
 </body>
 </html>
